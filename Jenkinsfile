@@ -4,7 +4,7 @@ node{
         git branch: 'development', url: 'https://github.com/team16flight/web-app.git'
     }
     stage('BUILD'){
-       sh "${MHD}/bin/mvn clean package!!!"
+       sh "${MHD}/bin/mvn clean package!!!!"
  
     }
     /*
